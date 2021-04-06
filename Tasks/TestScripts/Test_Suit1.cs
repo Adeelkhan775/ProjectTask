@@ -18,7 +18,7 @@ namespace Tasks.TestScripts
 
 
         /*Case 1
-        •	Main steps:
+        •	Main steps :
         •	Open https://demoqa.com/
         •	Navigate to Forms
         •	Click 'Practice Form'
@@ -54,13 +54,13 @@ namespace Tasks.TestScripts
         }
 
         /*Case 2:
-                •	Main steps:
-                •	Open https://demoqa.com/
-                •	Navigate to Forms
-                •	Click 'Practice Form'
-                •	Submit empty form
-                •	Verify "First Name", "Last Name", "Gender" are required fields
-                */
+                    •	Main steps:
+                    •	Open https://demoqa.com/
+                    •	Navigate to Forms
+                    •	Click 'Practice Form'
+                    •	Submit empty form
+                    •	Verify "First Name", "Last Name", "Gender" are required fields
+                    */
         [Test, Order(2)]
         public void TestMethod2()
         {
